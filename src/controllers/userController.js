@@ -44,8 +44,9 @@ const userSigin = async (req, res) => {
     if (res.status(201)) {
       return res.json({ token: token, email, status: "success" });
     } else {
-      return res.json({ error: true, message: "error, please try again" });
-    }
+      return res.json({ error: true, message: "error, please try agawin" });
+    }  
+
   }
   res.json({ error: true, message: "Invalid Password" });
 };
